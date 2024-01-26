@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Main</title>
+</head>
+<body>
+    <h1 th:text = "${home_page_name}"></h1>
+<!--    <p th:text = "${greetings}"></p>-->
+    <p>Hello, this is the task manager! Please <a th:href="@{tasks}">click here</a> to add a new task</p>
+</body>
+</html>
